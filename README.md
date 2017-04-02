@@ -1,7 +1,11 @@
-This repo contains the final course project for Coursera Getting and Cleaning data
+The run_analysis.R script runs all the five requirements of the course project:
 
-run_analysis.R holds the codes used to tidy up the data. It does that in five steps, as described in it.
+1. It reads in the txt files, assign them column names and then merges them into a single table.
 
-Codebook.md justifies the steps taken in the codes vis-a-vis the project objectives.
+2. It extracts the mean and standard deviation from the said table.
 
-The output of the codes are attached here as tidydata.txt.
+3. It gives the table descriptive names of the activity.
+
+4. The variable names are descriptive too.
+
+5. A second table is produced, which shows the average of each variables and subject.

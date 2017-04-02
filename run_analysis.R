@@ -37,7 +37,7 @@ test <- cbind(subject_test, y_test, x_test)
 all <- rbind(train, test)
 colnames(all) <- c("subject", "activity", mean.sd.names)
 
-
+#clarifying variable names
 allcols <- colnames(all)
 allcols  <- gsub("[\\(\\)-]", "", allcols)
 allcols  <- gsub("BodyBody", "Body", allcols)
@@ -49,18 +49,16 @@ allcols <- gsub("Mag", "Magnitude", allcols)
 allcols <- gsub("Freq", "Frequency", allcols)
 allcols <- gsub("mean", "Mean", allcols)
 allcols <- gsub("std", "StandardDeviation", allcols)
-
 colnames(all) <- allcols
 
-
+#converting activity and subjects to factors
 all$activity <- factor(all$activity, levels = activityid[ ,1], 
                         labels = activitylabels)
 all$subject <- as.factor(all$subject)
 
-library(reshape2)
+#find mean of variables
 all.melted <- melt(all, id = c("subject", "activity"))
 all.mean <- dcast(all.melted, subject + activity ~ variable, mean)
 
 #write tidy data to file
 write.table(all.mean, "tidydata.txt", row.names = F, quote = F)
-

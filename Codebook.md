@@ -1,11 +1,82 @@
-The run_analysis.R script runs all the five requirements of the course project:
+This code book summarises the data fields in tidydata.txt.
 
-1. It reads in the txt files, assign them column names and then merges them into a single table.
+##Identifiers##
 
-2. It extracts the mean and standard deviation from the said table.
+Subject - ID of the subjects
+Activity - Types of activity when measurements were taken
+	Activity identifiers can take six possible values
+	- WALKING
+	- WALKING_UPSTAIRS
+	- WALKING_DOWNSTAIRS
+	- SITTING
+	- STANDING
+	- LAYING
 
-3. It gives the table descriptive names of the activity.
+##Measurements##
 
-4. The variable names are descriptive too.
-
-5. A second table is produced, which shows the average of each variables and subject.
+timeDomainBodyAccelerometerMeanX                 
+timeDomainBodyAccelerometerMeanY           
+timeDomainBodyAccelerometerMeanZ                 
+timeDomainBodyAccelerometerStdX                 
+timeDomainBodyAccelerometerStdY                  
+timeDomainBodyAccelerometerStdZ                  
+timeDomainGravityAccelerometerMeanX              
+timeDomainGravityAccelerometerMeanY              
+timeDomainGravityAccelerometerMeanZ              
+timeDomainGravityAccelerometerStdX               
+timeDomainGravityAccelerometerStdY               
+timeDomainGravityAccelerometerStdZ               
+timeDomainBodyAccelerometerJerkMeanX             
+timeDomainBodyAccelerometerJerkMeanY             
+timeDomainBodyAccelerometerJerkMeanZ             
+timeDomainBodyAccelerometerJerkStdX              
+timeDomainBodyAccelerometerJerkStdY              
+timeDomainBodyAccelerometerJerkStdZ              
+timeDomainBodyGyroscopeMeanX                     
+timeDomainBodyGyroscopeMeanY                     
+timeDomainBodyGyroscopeMeanZ                     
+timeDomainBodyGyroscopeStdX                      
+timeDomainBodyGyroscopeStdY                      
+timeDomainBodyGyroscopeStdZ                      
+timeDomainBodyGyroscopeJerkMeanX                 
+timeDomainBodyGyroscopeJerkMeanY                 
+timeDomainBodyGyroscopeJerkMeanZ                 
+timeDomainBodyGyroscopeJerkStdX                  
+timeDomainBodyGyroscopeJerkStdY                  
+timeDomainBodyGyroscopeJerkStdZ                  
+timeDomainBodyAccelerometerMagnitudeMean         
+timeDomainBodyAccelerometerMagnitudeStd          
+timeDomainGravityAccelerometerMagnitudeMean      
+timeDomainGravityAccelerometerMagnitudeStd       
+timeDomainBodyAccelerometerJerkMagnitudeMean     
+timeDomainBodyAccelerometerJerkMagnitudeStd      
+timeDomainBodyGyroscopeMagnitudeMean             
+timeDomainBodyGyroscopeMagnitudeStd              
+timeDomainBodyGyroscopeJerkMagnitudeMean         
+timeDomainBodyGyroscopeJerkMagnitudeStd          
+frequencyDomainBodyAccelerometerMeanX            
+frequencyDomainBodyAccelerometerMeanY            
+frequencyDomainBodyAccelerometerMeanZ            
+frequencyDomainBodyAccelerometerStdX             
+frequencyDomainBodyAccelerometerStdY             
+frequencyDomainBodyAccelerometerStdZ             
+frequencyDomainBodyAccelerometerJerkMeanX        
+frequencyDomainBodyAccelerometerJerkMeanY        
+frequencyDomainBodyAccelerometerJerkMeanZ        
+frequencyDomainBodyAccelerometerJerkStdX         
+frequencyDomainBodyAccelerometerJerkStdY         
+frequencyDomainBodyAccelerometerJerkStdZ         
+frequencyDomainBodyGyroscopeMeanX                
+frequencyDomainBodyGyroscopeMeanY                
+frequencyDomainBodyGyroscopeMeanZ                
+frequencyDomainBodyGyroscopeStdX                 
+frequencyDomainBodyGyroscopeStdY                 
+frequencyDomainBodyGyroscopeStdZ                 
+frequencyDomainBodyAccelerometerMagnitudeMean    
+frequencyDomainBodyAccelerometerMagnitudeStd     
+frequencyDomainBodyAccelerometerJerkMagnitudeMean
+frequencyDomainBodyAccelerometerJerkMagnitudeStd 
+frequencyDomainBodyGyroscopeMagnitudeMean        
+frequencyDomainBodyGyroscopeMagnitudeStd         
+frequencyDomainBodyGyroscopeJerkMagnitudeMean    
+frequencyDomainBodyGyroscopeJerkMagnitudeStd     
