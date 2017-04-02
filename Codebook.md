@@ -3,14 +3,16 @@ This code book summarises the data fields in tidydata.txt.
 ## Identifiers
 
 `Subject` - ID of the subjects
+
 `Activity` - Types of activity when measurements were taken
+
 	Activity identifiers can take six possible values
-	- WALKING
-	- WALKING_UPSTAIRS
-	- WALKING_DOWNSTAIRS
-	- SITTING
-	- STANDING
-	- LAYING
+	- `WALKING`
+	- `WALKING_UPSTAIRS`
+	- `WALKING_DOWNSTAIRS`
+	- `SITTING`
+	- `STANDING`
+	- `LAYING`
 
 ## Measurements
 
